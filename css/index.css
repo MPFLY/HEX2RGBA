@@ -1,0 +1,48 @@
+.container{
+				width: 500px;
+				height: 300px;
+				margin: 200px auto;
+			}
+			input{
+		        height: 50px;
+			    width: 478px;
+			    border-radius: 5px;
+			    outline: none;
+			    border: 1px solid #ddd;
+			    background: #fff;
+			    padding: 0 10px;
+			    margin-bottom: 20px;
+			    font-size: 16px;
+			}
+			input::-webkit-input-placeholder{
+				font-size: 16px;
+				color: #dddddd;
+			}
+			input[type="checkbox"]{
+				    width: 20px;
+				    height: 15px;
+				    position: relative;
+				    top: 2px;
+			}
+			#submit{
+				display: block;
+				background: #3ab7ff;
+				width: 150px;
+				margin: 0 auto;
+				color: #fff;
+				font-size: 18px;
+				cursor: pointer;
+			}
+			.tip{
+				width: 200px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				position: absolute;
+			    top: 65%;
+				left: 45%;
+				background:rgba(0,0,0,0.6);
+				border-radius: 5px;
+				color: #fd5b29;
+				display: none;
+			}

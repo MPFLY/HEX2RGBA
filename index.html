@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>hexToRgba转换工具</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="shortcut icon" href="icon.png"/>
+	</head>
+	<body>
+		<div class="tip animated "></div>
+		<div class="container">
+			<div class="">
+				<label>
+				<input type="text" name="hex" id="hex" value="#ffffff" placeholder="#ffffff" /><br />
+				<input type="text" name="opacity" id="opacity" value="" placeholder="请输入不透明度 (0.1)" /><br />
+				<input type="button" id="submit" value="转换" onclick="hexToRgbaFun()"/>
+				
+				<br />
+				<h1>RAGB:</h1>
+				<h3 id="rgba"></h3>
+				<h1>兼容IE8:</h1>
+				<h3 id="ie8"></h3>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
